@@ -9,10 +9,14 @@ A) [22,27,16,2,18,6] -> Insertion Sort
 ```
 > Çözüm A:    [22,27,16,2,18,6]
 1.	[2,27,16,22,18,6]          en küçük 2 olduğu için 22 ve 2 yer değiştirdi 
-[2|6,16,22,18,27]  kalan en küçük 6 olduğu için 27 ve 6 yer değiştirdi
-[2,6|16,22,18,27] 16 en küçük sayı oldugu için dizi değişmedi 
-[2,6,16|18,22,27] kalan en küçük 18 olduğu için 22 ve 18 yer değiştirdi
-[2,6,16,18|22,27]         kalanlar arasında en küçük 22 oldugu için dizi aynı kaldı
+
+    [2|6,16,22,18,27]  kalan en küçük 6 olduğu için 27 ve 6 yer değiştirdi
+
+    [2,6|16,22,18,27] 16 en küçük sayı oldugu için dizi değişmedi
+
+    [2,6,16|18,22,27] kalan en küçük 18 olduğu için 22 ve 18 yer değiştirdi
+
+    [2,6,16,18|22,27]         kalanlar arasında en küçük 22 oldugu için dizi aynı kaldı
 
        **->[2,6,16,18,22,27]**
 
